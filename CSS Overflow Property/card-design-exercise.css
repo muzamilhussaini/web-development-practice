@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.card {
+    min-height: 50vh;
+    width: 350px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card>img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 15px 0;
+}
+
+.info>span {
+    font-size: medium;
+    color: rgb(65, 63, 63);
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: 1px solid rgb(218, 214, 214);
+}
+
+button {
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: none;
+    background-color: #e0eeff;
+    color: rgb(6, 30, 243);
+}
+
+.btn {
+    text-align: center;
+}
